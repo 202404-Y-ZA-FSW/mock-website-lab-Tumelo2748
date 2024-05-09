@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Header{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/Texture.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.TopContainer{
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+/* .grid-item{
+    text-align: center;
+    font-size: 30px;
+} */
+
+.container-Header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 50px;
+    
+}
+
+.image-shift-left{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    margin-right: 50px;
+    
+}
+
+.image-bg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Images-container{
+    
+}
+
+.Images-container-left{
+
+}
+
+.left-container-Header{
+
+}
+
+.left-container-paragraph{
+    /* width: 400px; */
+}
+
+.Right-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* width: 100%; */
+    margin-top: 80px;
+}
+
+.right-container-Header{
+    
+}
+
+.right-container-paragraph{
+    width: 400px;
+    /* margin: 50px 0px 0px -50px; */
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+
+.form-container-Header{
+    text-align: center;
+}
+.form-container-paragraph{
+text-align: center;
+}
+.form-container{
+    width: '100%';
+    background-color:rgb(107, 196, 194);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-label{
+    padding: 30px;
+}
+
+.form-name{
+   
+}
